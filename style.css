@@ -14,8 +14,10 @@ html{
 #navbar{
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
     top: 0px;
+    z-index: 1;
+    background-color: black;
 }
 /* Navigation Bar : Logo and Image  */
 #logo{
